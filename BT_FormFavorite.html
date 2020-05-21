@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="stylesheet" type="text/css" href="CSSforFormFavorite.css">
+</head>
+<body>
+    <div id="form1">
+    
+        <h1>SỞ THÍCH CỦA BẠN</h1>
+    <form style="color:royalblue; margin-left: 50px;" action="/action_page.php">
+        Họ và tên:
+        <input style="width: 200px; height: 20px;" name"yourname" type="text"/>
+    </form><br/>
+    <form style="color:royalblue; margin-left:72px; " action="/action_page.php">
+        Email:
+        <input style="width: 200px; height: 20px;" name"email" type="text"/>
+    </form>
+    <form style="color: royalblue; margin-left: 55px;" action="/action_page.php">
+        Sở thích:
+    </form>
+    <div class="label1">
+        <label><input name="hobby" value="sport" type="checkbox"/>Thể thao</label>
+        <label><input name="hobby" value="web" type="checkbox"/>Lướt web</label>
+        <label><input name="hobby" value="travel" type="checkbox"/>Du lịch</label><br/>
+        <label><input name="hobby" value="music" type="checkbox"/>Âm nhạc</label>
+        <label><input name="hobby" value="game" type="checkbox"/>Chơi game</label><br/>
+        <label><input name="hobby" value="book" type="checkbox"/>Đọc sách</label>
+        <label><input name="hobby" value="movie" type="checkbox"/>Điện ảnh</label><br/>
+    </div>
+        <input style="margin-left:60px; margin-top: 10px; width: 100px; height: 30px;" type="submit" value="Gửi thông tin"/>
+        <input style="margin-left:150px; width: 100px; height: 30px;" type="submit" value="Nhập lại"/>
+
+
+    <div id="form2">
+        <h2 style="color:royalblue; background:skyblue; max-width: 500px; height: 45px;">ĐĂNG KÝ HỌC VIÊN</h2>
+        <form style="color:royalblue; margin-left: 50px;" action="/action_page.php">
+            Họ và tên:
+            <input style="width: 200px; height: 20px;" name="yourname1" type="text"/>
+        </form><br/>
+        <form style="color:royalblue; margin-left: 48px;" action="/action_page.php">
+            Ngày sinh:
+            <input name="datebirth" type="datetime"/>
+        </form><br/>
+        <form style="color:royalblue; margin-left: 60px;" action="/action_page.php">
+            Giới tính:
+            <label><input name="sex" value="nam" type="radio"/>Nam</label>
+            <label><input name="sex" value="nu" type="radio"/>Nữ</label>
+        </form>
+        <form style="color:royalblue; margin-left: 68px;" action="/action_page.php">
+            Địa chỉ:
+            <input style="width: 200px; height: 50px;" name="address" type="text"/>
+        </form>
+        <form style="color:royalblue; margin-left: 88px; margin-top: 10px;" action="/action_page.php">
+            Lớp:
+            <select style="width: 100px;" name="class">
+                <option value="chonlop">--Chọn lớp--</option>
+                <option value="lop1">Lớp 1</option>
+                <option value="lop2">Lớp 2</option>
+                <option value="lop3">Lớp 3</option>
+                <option value="lop4">Lớp 4</option>
+                <option value="lop5">Lớp 5</option>
+            </select>
+        </form>
+        <form style="color:royalblue; margin-left: 78px; margin-top: 10px;" action="/action_page.php">
+            Email:
+            <input name="email1" type="text"/>
+        </form>
+        <form style="color:royalblue; margin-left: 50px; margin-top: 10px;" action="/action_page.php">
+            Điện thoại:
+            <input name="dienthoai" type="number"/>
+        </form>
+        <input style="margin-top:10px; margin-left: 40px; width: 100px; height: 30px;" type="submit" value="Đăng ký"/>
+        <input style="margin-left:100px; width: 100px; height: 30px;" type="submit" value="Nhập lại"/>
+    </div>
+</body> 
+</html>
