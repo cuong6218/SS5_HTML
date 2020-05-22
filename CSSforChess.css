@@ -1,4 +1,13 @@
-td{
+col:first-child{
+    background: orange;
+}
+tr :nth-child(1){
+    background: orange;
+}
+td, th{
     width: 70px;
     height: 70px;
+}
+td :nth-child(odd){
+    background: black;
 }

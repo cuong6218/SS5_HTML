@@ -8,6 +8,27 @@ h1{
     text-align: center; 
     max-width: 500px;
 }
-.label1{
-    margin-left:80px;
+#abc{
+    height: 70px;
+}
+#a{
+    position: relative;
+    left:50px;
+    width: 100px;
+    float: left;
+}
+#b{
+    position: relative;
+    right:250px; 
+    width: 100px;
+    float:right;
+}
+#c{
+    position: relative;
+    right:10px;
+    width: 100px;
+    float: right;
+}
+#button{
+    height: 100px;
 }
