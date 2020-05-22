@@ -1,7 +1,4 @@
-col:first-child{
-    background: orange;
-}
-tr :nth-child(1){
+th{
     background: orange;
 }
 td, th{
