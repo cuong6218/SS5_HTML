@@ -1,0 +1,23 @@
+body{
+   
+}
+h1{
+    color: royalblue;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+li{
+    color: royalblue;
+}
+th{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+td{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
